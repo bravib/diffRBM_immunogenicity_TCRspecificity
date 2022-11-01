@@ -1,0 +1,34 @@
+A = hmmodel.MatchEmission;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/MatchEmission.txt','A');
+B = hmmodel.InsertEmission;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/InsertEmission.txt','B');
+C = hmmodel.NullEmission;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/NullEmission.txt','C');
+D = hmmodel.BeginX;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/BeginX.txt','D');
+E = hmmodel.MatchX;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/MatchX.txt','E');
+F = hmmodel.InsertX;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/InsertX.txt','F');
+G = hmmodel.DeleteX;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/DeleteX.txt','G');
+H = hmmodel.FlankingInsertX;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/FlankingInsertX.txt','H');
+I = hmmodel.LoopX;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/LoopX.txt','I');
+L = hmmodel.NullX;
+save('/home/barbara/Barbara_Bravi/diffrbm_selection/Selection_model/Pgen/HMM_model/NullX.txt','L');
+
+
+A = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/MatchEmission.txt');
+B = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/InsertEmission.txt');
+C = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/NullEmission.txt');
+D = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/BeginX.txt');
+E = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/MatchX.txt');
+F = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/InsertX.txt');
+G = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/DeleteX.txt');
+H = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/FlankingInsertX.txt');
+I = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/LoopX.txt');
+L = importdata('/home/barbara/Barbara_Bravi/rbm/data/diffRBM_selection/Selection_model/Pgen/HMM_model/NullX.txt');
+hmmprofstruct(lea,'MatchEmission',A,'InsertEmission',B,'NullEmission',C,'BeginX',D,'MatchX',E,'InsertX',F,'DeleteX',G,'FlankingInsertX',H,'LoopX',I,'NullX',L)
+
