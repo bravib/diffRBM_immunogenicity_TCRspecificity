@@ -3,7 +3,7 @@ This repo contains data, codes and other results related to the manuscript 'Lear
 predicting antigen immunogenicity and T-cell receptor specificity'.
 
 'Immunogenicity_model' contains:
-- training/test data and models for HLA-A*02:01-presented peptides (same for HLA-B*35:01, HLA-B*07:02);
+- training/test data and models for HLA-A\*02:01-presented peptides (same for HLA-B\*35:01, HLA-B\*07:02);
 - Tables with contact positions on PDB structures and models' predictions;
 - Results on the immunogenic vs non-immunogenic discrimination performance.
 
