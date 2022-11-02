@@ -7,6 +7,8 @@ predicting antigen immunogenicity and T-cell receptor specificity'.
 - Tables with contact positions on PDB structures and models' predictions;
 - Results on the immunogenic vs non-immunogenic discrimination performance.
 
+NB: To re-train the immunogenicity models, the file tcell_full_v3.zip is needed (from here: https://www.iedb.org/database_export_v3.php)
+
 'TCR_specificity_model' contains:
 - training/test data and models for NLVPMVATV-specific CDR3beta (same for GILGFVFTL, GLCTLVAML, YLQPRTFLL);
 - Tables with contact positions on PDB structures and models' predictions;
@@ -19,6 +21,6 @@ predicting antigen immunogenicity and T-cell receptor specificity'.
 
 'Align_utils' contains routines for sequence alignment.
 
-'TCRspecificity_example' contains codes that illustrate how to train and evaluate the diffRBM approach to modeling TCR specificity.
+'TCR_specificity_example' contains codes that illustrate how to train and evaluate the diffRBM approach to modeling TCR specificity.
 
 'Immunogenicity_example' contains codes that illustrate the diffRBM approach to modeling immunogenicity.
