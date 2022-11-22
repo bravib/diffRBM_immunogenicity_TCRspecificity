@@ -17,7 +17,7 @@ NB: To re-train the immunogenicity models, the file tcell_full_v3.zip is needed 
 'Notebooks' contains:
 - a notebook to produce the results for the diffRBM immunogenicity model and the immunogenicity classifier (notebook_immunogenicity.ipynb);
 - a notebook to produce the results for the diffRBM T-Cell Receptor specificity model (notebook_TCR_specificity.ipynb);
-- a notebook to produce the figures of the manuscript.
+- a notebook to produce the figures of the manuscript (notebook_visualize_results.ipynb).
 
 'Align_utils' contains routines for sequence alignment.
 
