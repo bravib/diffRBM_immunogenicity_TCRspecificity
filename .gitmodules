@@ -1,0 +1,3 @@
+[submodule "diffRBM"]
+	path = diffRBM
+	url = https://github.com/cossio/diffRBM
